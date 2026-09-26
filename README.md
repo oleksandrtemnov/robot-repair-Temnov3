@@ -1,38 +1,3 @@
- 
-robot-repair-dovmat
-Repository navigation
-Code
-Issues
-Pull requests
-0 stars
-0 forks
-0 watching
-1 branch
-0 tags
-Activity
-Public repository
-maks1dv
-maks1dv
-1 hour ago
-Name	
-Assets
-2 hours ago
-Packages
-3 days ago
-ProjectSettings
-3 days ago
-.gitattributes
-3 weeks ago
-.gitignore
-3 weeks ago
-.vsconfig
-yesterday
-README.md
-1 hour ago
-robot-repair-dovmat.slnx
-yesterday
-Repository files navigation
-README
 Щоденник розробника
 26.09.2026 — Юніт 1: персонаж і рух
 Що зроблено: Створено нову сцену MainScene, налаштовано тайлмап підлоги з тайлів розміром 64x64 PPU. Створено скрипт PlayerController із використанням нової системи UnityEngine.InputSystem. Налаштовано прив'язку дій руху для стрілок, WASD та лівого стіка геймпада.
