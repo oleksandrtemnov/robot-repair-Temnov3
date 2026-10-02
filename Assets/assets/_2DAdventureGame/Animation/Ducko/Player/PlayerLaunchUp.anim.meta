@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e8a1a0626947b1e41a924beb68d833ce
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271239
+  packageName: 'Unity Learn | 2D Adventure Game: Robot Repair'
+  packageVersion: 2.0.0
+  assetPath: Assets/_2DAdventureGame/Animation/Ducko/Player/PlayerLaunchUp.anim
+  uploadId: 832758

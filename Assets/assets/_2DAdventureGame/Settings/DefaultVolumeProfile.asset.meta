@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dd11ade6741b4644fa4540d6cac860e8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 271239
+  packageName: 'Unity Learn | 2D Adventure Game: Robot Repair'
+  packageVersion: 2.0.0
+  assetPath: Assets/_2DAdventureGame/Settings/DefaultVolumeProfile.asset
+  uploadId: 832758
