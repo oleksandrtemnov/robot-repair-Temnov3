@@ -1,18 +1,12 @@
 using UnityEngine;
-
 public class HealthCollectible : MonoBehaviour
 {
     public int healAmount = 1;
-
+    bool collected;
     void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerController controller = other.GetComponent<PlayerController>();
-
-        // Перевіряємо, чи це гравець і чи його здоров'я менше за максимум
-        if (controller != null && controller.health < controller.maxHealth)
-        {
-            controller.ChangeHealth(healAmount);
-            Destroy(gameObject); // Знищуємо аптечку
-        }
+        var player = other.GetComponent<PlayerController>();
+        if (!collected && player != null && player.health > 0 && player.health < player.maxHealth)
+        { collected = true; player.ChangeHealth(healAmount); Destroy(gameObject); }
     }
 }

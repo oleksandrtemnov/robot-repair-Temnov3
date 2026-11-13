@@ -1,0 +1,9 @@
+{
+  "test": "Automated full route from original spawn, no teleports, no health overrides",
+  "pass": true,
+  "seconds": 11.68,
+  "hits": 1,
+  "hp": 4,
+  "repaired": 3,
+  "error": null
+}

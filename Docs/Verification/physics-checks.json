@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Water west bank blocks player",
+    "pass": true,
+    "evidence": "x=-10,25"
+  },
+  {
+    "name": "Water east bank blocks player",
+    "pass": true,
+    "evidence": "x=-5,75"
+  },
+  {
+    "name": "Water north bank blocks player",
+    "pass": true,
+    "evidence": "y=-1,52"
+  },
+  {
+    "name": "Water south bank blocks player",
+    "pass": true,
+    "evidence": "y=-4,92"
+  },
+  {
+    "name": "World boundary blocks player",
+    "pass": true,
+    "evidence": "x=-16,75"
+  },
+  {
+    "name": "Water blocks solid enemy feet",
+    "pass": true,
+    "evidence": "enemy x=-11,94"
+  },
+  {
+    "name": "Cinemachine follows and confines",
+    "pass": true,
+    "evidence": "camera x=7,14"
+  }
+]

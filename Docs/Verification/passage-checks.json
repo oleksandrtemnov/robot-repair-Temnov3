@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Closed door blocks",
+    "pass": true,
+    "evidence": "player x=6,30"
+  },
+  {
+    "name": "Plate opens door",
+    "pass": true,
+    "evidence": "physical entry triggers timer"
+  },
+  {
+    "name": "Standing does not restart timer",
+    "pass": true,
+    "evidence": "remaining 3,86 -> 2,95"
+  },
+  {
+    "name": "Open door traversable",
+    "pass": true,
+    "evidence": "player x=7,98"
+  },
+  {
+    "name": "Door waits for occupied doorway",
+    "pass": true,
+    "evidence": "player remains inside after 4 seconds"
+  },
+  {
+    "name": "Door closes after exit",
+    "pass": true,
+    "evidence": "door active once player leaves"
+  },
+  {
+    "name": "East plate reopens same door",
+    "pass": true,
+    "evidence": "east trigger drives west controller"
+  },
+  {
+    "name": "Timer closes door",
+    "pass": true,
+    "evidence": "door active after timer expiry"
+  },
+  {
+    "name": "Full wall blocks west approach at y=-6,3",
+    "pass": true,
+    "evidence": "x=6,32"
+  },
+  {
+    "name": "Full wall blocks east approach at y=-6,3",
+    "pass": true,
+    "evidence": "x=7,68"
+  },
+  {
+    "name": "Full wall blocks west approach at y=-3",
+    "pass": true,
+    "evidence": "x=6,32"
+  },
+  {
+    "name": "Full wall blocks east approach at y=-3",
+    "pass": true,
+    "evidence": "x=7,68"
+  },
+  {
+    "name": "Full wall blocks west approach at y=-0,9",
+    "pass": true,
+    "evidence": "x=6,32"
+  },
+  {
+    "name": "Full wall blocks east approach at y=-0,9",
+    "pass": true,
+    "evidence": "x=7,68"
+  },
+  {
+    "name": "Full wall blocks west approach at y=2,4",
+    "pass": true,
+    "evidence": "x=6,32"
+  },
+  {
+    "name": "Full wall blocks east approach at y=2,4",
+    "pass": true,
+    "evidence": "x=7,68"
+  },
+  {
+    "name": "Full wall blocks west approach at y=5",
+    "pass": true,
+    "evidence": "x=6,32"
+  },
+  {
+    "name": "Full wall blocks east approach at y=5",
+    "pass": true,
+    "evidence": "x=7,68"
+  },
+  {
+    "name": "Full wall blocks west approach at y=7,3",
+    "pass": true,
+    "evidence": "x=6,32"
+  },
+  {
+    "name": "Full wall blocks east approach at y=7,3",
+    "pass": true,
+    "evidence": "x=7,68"
+  }
+]

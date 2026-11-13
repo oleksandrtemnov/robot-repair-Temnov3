@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="GameUI.uss" />
+  <ui:Template name="NPCDialogueTemplate" src="NPCDialogue.uxml" />
+  <ui:Template name="EndScreenTemplate" src="EndScreen.uxml" />
+  <ui:VisualElement class="root" picking-mode="Ignore">
+    <ui:VisualElement name="HealthBarBackground" class="health-frame">
+      <ui:VisualElement name="HealthBarContainer" class="health-container"><ui:VisualElement name="HealthBar" class="health" /></ui:VisualElement>
+      <ui:VisualElement name="CharacterPortrait" class="portrait" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ProgressPanel" class="progress-panel"><ui:Label name="RepairCount" text="Відремонтовано 0 / 3" class="progress" /></ui:VisualElement>
+    <ui:Label name="Hint" class="hint" />
+    <ui:Instance template="NPCDialogueTemplate" class="overlay-template" picking-mode="Ignore" />
+    <ui:Instance template="EndScreenTemplate" class="overlay-template" picking-mode="Ignore" />
+  </ui:VisualElement>
+</ui:UXML>

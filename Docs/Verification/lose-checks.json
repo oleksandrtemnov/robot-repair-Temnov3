@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Loss condition",
+    "pass": true,
+    "evidence": "ended=True, HP=0"
+  },
+  {
+    "name": "Lose screen",
+    "pass": true,
+    "evidence": "lose container visible"
+  }
+]

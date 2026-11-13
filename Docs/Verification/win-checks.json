@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Win condition",
+    "pass": true,
+    "evidence": "ended=True, repaired=3"
+  },
+  {
+    "name": "Win screen",
+    "pass": true,
+    "evidence": "win container visible"
+  }
+]

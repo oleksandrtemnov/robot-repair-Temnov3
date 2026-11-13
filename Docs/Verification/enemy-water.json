@@ -1,0 +1,5 @@
+{
+  "test": "Enemy physically moves right into west bank",
+  "pass": true,
+  "x": -10.2249537
+}

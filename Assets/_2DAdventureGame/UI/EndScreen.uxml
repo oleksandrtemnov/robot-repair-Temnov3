@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:VisualElement name="WinScreenContainer" class="end"><ui:VisualElement name="WinScreen" class="end-art" /><ui:Label text="Сад знову працює! Новий старт за кілька секунд." class="end-caption" /></ui:VisualElement>
+  <ui:VisualElement name="LoseScreenContainer" class="end"><ui:VisualElement name="LoseScreen" class="end-art" /><ui:Label text="Спробуй інший маршрут. Новий старт за кілька секунд." class="end-caption" /></ui:VisualElement>
+</ui:UXML>

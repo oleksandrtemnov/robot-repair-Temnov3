@@ -1,0 +1,116 @@
+[
+  {
+    "scene": "MainScene",
+    "missingScripts": 0,
+    "duplicateHealth": 0,
+    "duplicateDamage": 0,
+    "enemies": 1,
+    "npc": 1,
+    "playerGravity": 0.0,
+    "playerSleep": "NeverSleep",
+    "playerRotation": "FreezeRotation",
+    "bindings": [
+      "2DVector",
+      "<Keyboard>/w",
+      "<Keyboard>/s",
+      "<Keyboard>/a",
+      "<Keyboard>/d",
+      "2DVector",
+      "<Keyboard>/upArrow",
+      "<Keyboard>/downArrow",
+      "<Keyboard>/leftArrow",
+      "<Keyboard>/rightArrow",
+      "<Gamepad>/leftStick"
+    ],
+    "layers": [
+      "Character",
+      "Projectiles",
+      "NPC",
+      "CameraBounds"
+    ],
+    "ignorePlayerShot": true,
+    "ignoreCameraShot": true,
+    "tilemaps": 1,
+    "nestedDuplicateDependencies": []
+  },
+  {
+    "scene": "MyLevel",
+    "missingScripts": 0,
+    "duplicateHealth": 0,
+    "duplicateDamage": 0,
+    "enemies": 3,
+    "npc": 1,
+    "playerGravity": 0.0,
+    "playerSleep": "NeverSleep",
+    "playerRotation": "FreezeRotation",
+    "bindings": [
+      "2DVector",
+      "<Keyboard>/w",
+      "<Keyboard>/s",
+      "<Keyboard>/a",
+      "<Keyboard>/d",
+      "2DVector",
+      "<Keyboard>/upArrow",
+      "<Keyboard>/downArrow",
+      "<Keyboard>/leftArrow",
+      "<Keyboard>/rightArrow",
+      "<Gamepad>/leftStick"
+    ],
+    "layers": [
+      "Character",
+      "Projectiles",
+      "NPC",
+      "CameraBounds"
+    ],
+    "ignorePlayerShot": true,
+    "ignoreCameraShot": true,
+    "tilemaps": 3,
+    "nestedDuplicateDependencies": []
+  },
+  {
+    "prefab": "EnemyFast",
+    "type": "Variant"
+  },
+  {
+    "prefab": "EnemySlow",
+    "type": "Variant"
+  },
+  {
+    "prefab": "CollectibleHealthLarge",
+    "type": "Variant"
+  },
+  {
+    "prefab": "DamageZoneStrong",
+    "type": "Variant"
+  },
+  {
+    "prefab": "TimedPlateEast",
+    "type": "Variant"
+  },
+  {
+    "plates": [
+      {
+        "name": "SwitchEast",
+        "door": "TimedDoor",
+        "controller": "SwitchWest",
+        "openTime": 4.0
+      },
+      {
+        "name": "SwitchWest",
+        "door": "TimedDoor",
+        "controller": "self",
+        "openTime": 4.0
+      }
+    ],
+    "buildScenes": [
+      {
+        "path": "Assets/_2DAdventureGame/Scenes/MyLevel.unity",
+        "enabled": true
+      },
+      {
+        "path": "Assets/_2DAdventureGame/Scenes/MainScene.unity",
+        "enabled": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Automatic Invoke reload",
+    "pass": true,
+    "evidence": "new manager, HP=5, ended=false; shortened test delay .3 seconds"
+  }
+]
